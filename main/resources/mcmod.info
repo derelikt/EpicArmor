@@ -1,0 +1,16 @@
+[
+{
+  "modid": "EpicArmor",
+  "name": "Epic Armor!",
+  "description": "This mod brings new sets of armor with custom models to Minecraft because generic armor is boring.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Dereliktt"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
