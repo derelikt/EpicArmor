@@ -7,6 +7,7 @@ import com.dereliktt.EpicArmor.EpicArmor;
 import com.dereliktt.EpicArmor.armor.CustomArmor;
 import com.dereliktt.EpicArmor.models.ModelEpicArmorKnight;
 import com.dereliktt.EpicArmor.models.ModelEpicArmorCommander;
+import com.dereliktt.EpicArmor.models.ModelEpicArmorElfWarrior;
 
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -46,6 +47,14 @@ public class ProxyClient extends ProxyCommon{
 			armorModels.put(commander_chest, commander_armor);
 			armorModels.put(commander_legs, commander_leggings);
 			armorModels.put(commander_boots, commander_armor);
+			
+			ModelEpicArmorElfWarrior elfwarrior_armor = new ModelEpicArmorElfWarrior(1f);
+			ModelEpicArmorElfWarrior elfwarrior_leggings = new ModelEpicArmorElfWarrior(0.5F);
+			
+			armorModels.put(elfwarrior_helm, elfwarrior_armor);
+			armorModels.put(elfwarrior_chest, elfwarrior_armor);
+			armorModels.put(elfwarrior_legs, elfwarrior_leggings);
+			armorModels.put(elfwarrior_boots, elfwarrior_armor);
 		    
 	}
 	
